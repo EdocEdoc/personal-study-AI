@@ -1,47 +1,5 @@
 # Personal Study Companion
 
-A full-stack application to assist with personal study, featuring AI-powered tools.
-
-## Tech Stack
-
-## Features
-
-## Getting Started
-
-### Prerequisites
-
-### Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### Frontend Setup
-
-```bash
-cd web-app
-npm install
-npm run dev
-```
-
-### Database
-
-SQLite is used by default. No setup required.
-
-## AI Integration
-
-Ensure Ollama is running locally. Configure the backend to connect to Ollama as needed.
-
-## License
-
-MIT
-
-# Personal Study Companion
-
 Lightweight full-stack study helper: a React + Vite frontend with a FastAPI backend that parses and stores study documents (PDF, DOCX, TXT) into a local SQLite database. The project includes Docker configuration to run the app using docker-compose during development.
 
 ## Overview
