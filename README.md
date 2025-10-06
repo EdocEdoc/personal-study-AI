@@ -1,6 +1,21 @@
-# Personal Study Companion
+# AI Student Learning Tool
 
-Lightweight full-stack study helper: a React + Vite frontend with a FastAPI backend that parses and stores study documents (PDF, DOCX, TXT) into a local SQLite database. The project includes Docker configuration to run the app using docker-compose during development.
+A self-hosted, privacy-first AI study companion that transforms your learning materials into interactive quizzes and flashcards.
+
+# 🚀 Bacground
+
+AI Student Learning Tool is an open-source, locally powered study assistant designed for students, teachers, and lifelong learners.
+By combining FastAPI, React, and Ollama’s on-device AI, it enables users to upload documents (PDF, TXT, DOCX) and instantly transform them into structured lessons, summaries, and AI-generated quizzes — all processed locally without relying on external APIs.
+
+This tool empowers learners to study smarter with full control over their data, customizable AI prompts, and the ability to host and run everything on their own machine.
+
+## ⚙️ Key Features
+- 🧩 Document Sectionization — Automatically breaks long texts into logical modules and topics.
+- 🗒️ AI Summarization — Generates concise summaries and flashcards for quick reviews.
+- 🎯 Quiz Generation — Creates multiple-choice questions based on the uploaded content.
+- 💾 Local-First Storage — Uses SQLite for self-hosted setups or Supabase for cloud-based sync.
+- 🔒 Self-Hosting Ready — Full privacy and control; no data leaves your system.
+- 🤖 Powered by Ollama — Integrates local AI models like Llama 3, Phi 3, or Mistral 7B for offline intelligence.
 
 ## Overview
 
@@ -15,6 +30,16 @@ Lightweight full-stack study helper: a React + Vite frontend with a FastAPI back
 - `web-app/` — React + Vite frontend
 - `docker-compose.yml` — development compose file (frontend + backend)
 - `Dockerfile`, `Dockerfile.dev` in each service for container builds
+
+## How to Contribute
+1. Fork the repository
+- Create your own copy of the project on GitHub
+2. Find an issue or create one
+- Check the repository's issues tab for tasks to work on
+3. Create a pull request
+- Submit your changes for review
+4. Get it merged
+Once approved, your contribution will be part of the project!
 
 ## Quick start — Local (recommended for development)
 
