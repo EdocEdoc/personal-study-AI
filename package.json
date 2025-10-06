@@ -1,0 +1,14 @@
+{
+  "name": "personal-study-companion",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "docker:dev": "docker-compose up --build",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "docker:clean": "docker-compose down -v --rmi all --remove-orphans"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

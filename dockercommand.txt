@@ -1,0 +1,12 @@
+
+Tag your image
+docker tag personal-study-companion your-dockerhub-username/personal-study-companion:latest
+
+Log in
+docker login
+
+Push the image
+docker push your-dockerhub-username/personal-study-companion:latest
+
+Run the image
+docker run -d -p 8080:80 --name study-app your-dockerhub-username/personal-study-companion

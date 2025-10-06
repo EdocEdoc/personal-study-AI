@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-blue-50;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl p-5;
+  }
+}

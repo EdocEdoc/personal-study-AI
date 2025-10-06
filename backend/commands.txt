@@ -1,0 +1,4 @@
+pip install fastapi uvicorn PyPDF2 python-docx python-multipart
+
+python main.py
+http://localhost:8000/docs
