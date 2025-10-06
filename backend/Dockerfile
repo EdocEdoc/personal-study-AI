@@ -1,7 +1,7 @@
-FROM node:18
+FROM python:3.11
 WORKDIR /app
-COPY package*.json ./
-RUN yarn install || true
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 5000
-CMD ["yarn", "start"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "5000"]
