@@ -10,6 +10,7 @@ By combining FastAPI, React, and Ollama’s on-device AI, it enables users to up
 This tool empowers learners to study smarter with full control over their data, customizable AI prompts, and the ability to host and run everything on their own machine.
 
 ## ⚙️ Key Features
+
 - 🧩 Document Sectionization — Automatically breaks long texts into logical modules and topics.
 - 🗒️ AI Summarization — Generates concise summaries and flashcards for quick reviews.
 - 🎯 Quiz Generation — Creates multiple-choice questions based on the uploaded content.
@@ -32,14 +33,21 @@ This tool empowers learners to study smarter with full control over their data, 
 - `Dockerfile`, `Dockerfile.dev` in each service for container builds
 
 ## How to Contribute
+
 1. Fork the repository
+
 - Create your own copy of the project on GitHub
+
 2. Find an issue or create one
+
 - Check the repository's issues tab for tasks to work on
+
 3. Create a pull request
+
 - Submit your changes for review
+
 4. Get it merged
-Once approved, your contribution will be part of the project!
+   Once approved, your contribution will be part of the project!
 
 ## Quick start — Local (recommended for development)
 
@@ -107,3 +115,5 @@ This project references Ollama for local LLM usage. Make sure your Ollama daemon
 ## License
 
 MIT
+
+UPDATE TO TEST PR
