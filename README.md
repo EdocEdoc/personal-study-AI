@@ -2,7 +2,7 @@
 
 A self-hosted, privacy-first AI study companion that transforms your learning materials into interactive quizzes and flashcards.
 
-# 🚀 Bacground
+# 🚀 Background
 
 AI Student Learning Tool is an open-source, locally powered study assistant designed for students, teachers, and lifelong learners.
 By combining FastAPI, React, and Ollama’s on-device AI, it enables users to upload documents (PDF, TXT, DOCX) and instantly transform them into structured lessons, summaries, and AI-generated quizzes — all processed locally without relying on external APIs.
@@ -115,4 +115,3 @@ This project references Ollama for local LLM usage. Make sure your Ollama daemon
 ## License
 
 MIT
-
